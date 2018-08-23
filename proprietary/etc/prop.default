@@ -1,0 +1,41 @@
+#
+# ADDITIONAL_DEFAULT_PROPERTIES
+#
+ro.secure=1
+security.perf_harden=1
+ro.allow.mock.location=0
+ro.debuggable=1
+dalvik.vm.image-dex2oat-Xms=64m
+dalvik.vm.image-dex2oat-Xmx=64m
+dalvik.vm.dex2oat-Xms=64m
+dalvik.vm.dex2oat-Xmx=512m
+ro.dalvik.vm.native.bridge=0
+dalvik.vm.usejit=true
+dalvik.vm.usejitprofiles=true
+dalvik.vm.dexopt.secondary=true
+dalvik.vm.appimageformat=lz4
+pm.dexopt.first-boot=quicken
+pm.dexopt.boot=verify
+pm.dexopt.install=quicken
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.ab-ota=speed-profile
+pm.dexopt.inactive=verify
+pm.dexopt.shared=speed
+ro.com.google.clientidbase=android-xiaomi
+keyguard.no_require_sim=true
+ro.build.selinux=1
+ro.config.notification_sound=Hello.ogg
+ro.config.alarm_alert=AngelsHarp.ogg
+persist.sys.dun.override=0
+ro.adb.secure=1
+ro.storage_manager.enabled=true
+media.recorder.show_manufacturer_and_model=true
+ro.config.ringtone=Hello.ogg
+net.tethering.noprovisioning=true
+#
+# BOOTIMAGE_BUILD_PROPERTIES
+#
+ro.bootimage.build.date=Thu Aug 23 12:04:56 CST 2018
+ro.bootimage.build.date.utc=1534997096
+ro.bootimage.build.fingerprint=Xiaomi/polaris/polaris:8.0.0/OPR1.170623.032/V9.5.18.0.ODGCNFA:user/release-keys
+persist.sys.usb.config=none
